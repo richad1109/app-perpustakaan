@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    @include('partials.navbar')
     <h1>Tambah Buku</h1>
     <p><a href="{{ route('books.index') }}">&larr; Kembali ke daftar buku</a></p>
 

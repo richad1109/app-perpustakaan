@@ -16,6 +16,7 @@
     </style>
 </head>
 <body>
+    @include('partials.navbar')
     <h1>Daftar Anggota Perpustakaan</h1>
 
     @if (session('success'))

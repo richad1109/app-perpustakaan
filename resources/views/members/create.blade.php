@@ -12,6 +12,7 @@
     </style>
 </head>
 <body>
+    @include('partials.navbar')
     <h1>Tambah Anggota</h1>
     <p><a href="{{ route('members.index') }}">&larr; Kembali ke daftar anggota</a></p>
 
